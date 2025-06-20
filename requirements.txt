@@ -1,0 +1,16 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1+cu117 
+torchvision==0.14.1+cu117
+numpy==1.26.3
+transformers==4.26.1
+open3d
+opencv-python
+omegaconf
+easydict
+flow_vis
+numba
+scikit-image
+transformations
+ftfy
+einops
+gdown

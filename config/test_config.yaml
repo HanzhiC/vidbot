@@ -1,0 +1,17 @@
+# Dataset and Gripper Mesh
+dataset_dir: ./datasets/
+gripper_mesh_file: ./assets/panda_hand_mesh.obj
+
+# VidBot Affordance Prediction Models
+config_traj: ./pretrained/traj/config.yaml
+config_goal: ./pretrained/goal/config.yaml
+config_contact: ./pretrained/contact/config.yaml
+traj_ckpt: ./pretrained/traj/final.ckpt
+goal_ckpt: ./pretrained/goal/final.ckpt
+contact_ckpt: ./pretrained/contact/final.ckpt
+
+# Optional: Open-world Detectors and Grasp Detector
+config_detector: ./third_party/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
+esam_ckpt: ./third_party/EfficientSAM/weights/efficient_sam_vitt.pt
+graspnet_ckpt: ./third_party/graspness_unofficial/weights/minkuresunet_kinect.tar
+detector_ckpt: ./third_party/GroundingDINO/weights/groundingdino_swint_ogc.pth

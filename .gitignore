@@ -1,0 +1,28 @@
+wandb/
+out/
+ckpt/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+.vscode/*
+
+*.egg-info
+wandb/*
+logs/*
+datasets/*.json
+datasets/labels/*
+*.npz
+*.npy
+.tmp/
+results/
+# third_party/
+pretrained/
+*.zip
+vis/
+inference_results/
+*.blend*
+manip_render/
+datasets
+pretrained_weights/
