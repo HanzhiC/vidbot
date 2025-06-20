@@ -103,7 +103,7 @@ To install VidBot, follow these steps:
 
 3. **Run the Inference Script**: To run tests with your own data, execute the following command, ensuring you understand the meaning of each input argument:
    ```bash
-    python inference.py 
+    python demos/infer_affordance.py 
     --config ./config/test_config.yaml  
     --dataset YOUR_DATASET_NAME  
     --frame FRAME_ID  
